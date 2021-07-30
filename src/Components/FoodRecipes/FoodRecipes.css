@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.FoodRecipes{
+    background: linear-gradient(pink,rgb(255, 0, 0,0.6));
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SearchBar{
+    width: 100%;
+    margin: 4vh;
+}
+
+#DishName{
+    width: 40vw;
+    font-size: large;
+}
+#DishButton{
+    color: white;
+    width: 5vw;
+    background: rgb(88, 88, 228);
+    font-size: large;
+}
+#DishButton:hover{
+    background: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.Recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Dish{
+    border-radius: 20px;
+    background: white;
+    width: 40%;
+    height: 60vh;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgb(0,0,0,0.5) 2px 2px 2px 2px;
+}
+
+.Title{
+    font-size: 1rem;
+    margin: 2vh 0;
+}
+p{
+    font-size: 0.5rem;
+}
+.img{
+    position: relative;
+    margin:2vh 0;
+    border-radius: 100%;
+    width: 30%;
+}
